@@ -1,15 +1,16 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,40:0d1421,80:111827,100:0d1117&height=150&section=header&text=VELTHORIAN&fontSize=36&fontFamily=JetBrains+Mono&fontColor=4A7FBF&fontAlignY=58&animation=fadeIn" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,35:0a0e1a,65:0d1421,100:0d1117&height=160&section=header&text=VELTHORIAN&fontSize=40&fontFamily=JetBrains+Mono&fontColor=4A7FBF&fontAlignY=58&animation=fadeIn&desc=software+engineer+%2F+self-hosted+infrastructure&descSize=12&descAlignY=75&descAlign=50&descColor=3a5a7a" width="100%"/>
 
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=300&size=13&duration=3500&pause=1200&color=4A7FBF&center=true&vCenter=true&width=560&lines=Full-stack+developer+%E2%80%94+Node.js+%2F+React+19;Self-hosted+infrastructure+%E2%80%94+Raspberry+Pi+%2B+VPS;Discord+bots+%2F+streaming+%2F+file+sharing+%2F+ops;Building+things+that+actually+work." alt="Typing SVG" />
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=300&size=12&duration=3500&pause=1200&color=4A7FBF&center=true&vCenter=true&width=580&lines=Full-stack+developer+%E2%80%94+Node.js+%2F+React+19;Self-hosted+infra+%E2%80%94+multi-VPS+%2B+dedicated+%2B+RPi+%2B+Arduino;Discord+bots+%2F+streaming+%2F+file+sharing+%2F+ops;Building+things+that+actually+work." />
 
 <br/>
 
 ![](https://img.shields.io/badge/Self--hosted-0d1421?style=flat-square&logo=raspberry-pi&logoColor=4A7FBF&labelColor=0d1421)
-![](https://img.shields.io/badge/ESM--first-0d1421?style=flat-square&logo=node.js&logoColor=4A7FBF&labelColor=0d1421)
-![](https://img.shields.io/badge/Nginx_/_Cloudflare-0d1421?style=flat-square&logo=nginx&logoColor=4A7FBF&labelColor=0d1421)
+![](https://img.shields.io/badge/Node.js_ESM-0d1421?style=flat-square&logo=node.js&logoColor=4A7FBF&labelColor=0d1421)
+![](https://img.shields.io/badge/Nginx_·_Cloudflare-0d1421?style=flat-square&logo=nginx&logoColor=4A7FBF&labelColor=0d1421)
 ![](https://img.shields.io/badge/Always_shipping-0d1421?style=flat-square&logo=github-actions&logoColor=4A7FBF&labelColor=0d1421)
+![](https://img.shields.io/badge/PM2_·_Docker-0d1421?style=flat-square&logo=docker&logoColor=4A7FBF&labelColor=0d1421)
 
 </div>
 
@@ -19,70 +20,62 @@
 
 ## `~/ecosystem`
 
-> Ensemble de services self-hostés interconnectés, déployés derrière Nginx + Cloudflare sur une infrastructure personnelle.
+> Services web self-hostés interconnectés — déployés derrière Nginx + Cloudflare sur une infrastructure multi-machines.
 
 <br/>
 
 <table>
 <thead>
 <tr>
-<th align="left" width="200">Projet</th>
+<th align="left" width="195">Projet</th>
 <th align="left">Description</th>
 <th align="left">Stack</th>
 <th align="center">Status</th>
 </tr>
 </thead>
 <tbody>
-
 <tr>
 <td><strong>VelthorianFlix</strong></td>
-<td>Plateforme de streaming vidéo privée — bibliothèque SQLite, metadata TMDB, range-request streaming, watch history, transcoding externe GPU, panel admin</td>
+<td>Plateforme de streaming vidéo privée — bibliothèque SQLite, metadata TMDB, range-request streaming, watch history, transcoding GPU externe, panel admin</td>
 <td><code>React 19</code> <code>Vite</code> <code>Express</code> <code>SQLite</code> <code>JWT</code></td>
-<td align="center"><img src="https://img.shields.io/badge/actif-0a3d1f?style=flat-square&color=0a3d1f&labelColor=0a3d1f&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA4IDgiPjxjaXJjbGUgY3g9IjQiIGN5PSI0IiByPSI0IiBmaWxsPSIjNGFkZTgwIi8+PC9zdmc+&logoColor=4ade80"/></td>
+<td align="center"><img src="https://img.shields.io/badge/●_actif-0a3d1f?style=flat-square&labelColor=0a3d1f&color=0a3d1f&logoColor=4ade80"/></td>
 </tr>
-
 <tr>
 <td><strong>VelthorianDrop</strong></td>
-<td>Partage de fichiers sécurisé — drag & drop, progression XHR, tokens JWT one-shot, SHA-256, expiry/password/limite de téléchargements, panel admin</td>
+<td>Partage de fichiers sécurisé — drag & drop XHR, tokens JWT one-shot, SHA-256, expiry / password / limite de téléchargements, panel admin</td>
 <td><code>Node.js</code> <code>Express</code> <code>JWT</code> <code>SQLite</code></td>
-<td align="center"><img src="https://img.shields.io/badge/actif-0a3d1f?style=flat-square&color=0a3d1f&labelColor=0a3d1f&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA4IDgiPjxjaXJjbGUgY3g9IjQiIGN5PSI0IiByPSI0IiBmaWxsPSIjNGFkZTgwIi8+PC9zdmc+&logoColor=4ade80"/></td>
+<td align="center"><img src="https://img.shields.io/badge/●_actif-0a3d1f?style=flat-square&labelColor=0a3d1f&color=0a3d1f"/></td>
 </tr>
-
 <tr>
 <td><strong>VelthorianPulse</strong></td>
 <td>Page de statut publique — health checks HTTP, historique 90 jours, gestion d'incidents, alertes Discord webhook</td>
 <td><code>Node.js</code> <code>Express</code> <code>SQLite</code> <code>Discord</code></td>
-<td align="center"><img src="https://img.shields.io/badge/actif-0a3d1f?style=flat-square&color=0a3d1f&labelColor=0a3d1f&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA4IDgiPjxjaXJjbGUgY3g9IjQiIGN5PSI0IiByPSI0IiBmaWxsPSIjNGFkZTgwIi8+PC9zdmc+&logoColor=4ade80"/></td>
+<td align="center"><img src="https://img.shields.io/badge/●_actif-0a3d1f?style=flat-square&labelColor=0a3d1f&color=0a3d1f"/></td>
 </tr>
-
 <tr>
 <td><strong>VelthorianOps</strong></td>
-<td>Dashboard opérationnel unifié — analytics Cloudflare (GraphQL API), monitoring PM2 avec stream de logs SSE, cron job manager SQLite, alertes Discord</td>
-<td><code>React 19</code> <code>Vite</code> <code>Express</code> <code>SQLite</code> <code>PM2 API</code></td>
-<td align="center"><img src="https://img.shields.io/badge/actif-0a3d1f?style=flat-square&color=0a3d1f&labelColor=0a3d1f&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA4IDgiPjxjaXJjbGUgY3g9IjQiIGN5PSI0IiByPSI0IiBmaWxsPSIjNGFkZTgwIi8+PC9zdmc+&logoColor=4ade80"/></td>
+<td>Dashboard opérationnel unifié — analytics Cloudflare (GraphQL), monitoring PM2 avec stream SSE, cron manager SQLite, alertes Discord</td>
+<td><code>React 19</code> <code>Vite</code> <code>Express</code> <code>PM2 API</code> <code>SQLite</code></td>
+<td align="center"><img src="https://img.shields.io/badge/●_actif-0a3d1f?style=flat-square&labelColor=0a3d1f&color=0a3d1f"/></td>
 </tr>
-
 <tr>
 <td><strong>VelthorianGate</strong></td>
-<td>Portail d'authentification — SSO, gestion de projets, tableau de bord admin avec suivi localStorage</td>
+<td>Portail d'authentification centralisé — SSO, gestion de projets, tableau de bord admin</td>
 <td><code>Node.js</code> <code>JWT</code> <code>bcrypt</code> <code>SQLite</code></td>
-<td align="center"><img src="https://img.shields.io/badge/en_dev-3d2000?style=flat-square&color=3d2000&labelColor=3d2000&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA4IDgiPjxjaXJjbGUgY3g9IjQiIGN5PSI0IiByPSI0IiBmaWxsPSIjZjVhNjIzIi8+PC9zdmc+"/></td>
+<td align="center"><img src="https://img.shields.io/badge/●_en_dev-3d2000?style=flat-square&labelColor=3d2000&color=3d2000"/></td>
 </tr>
-
 <tr>
 <td><strong>VelthorianRythm</strong></td>
-<td>Bot Discord de musique — slash commands, Lavalink v4, 9 filtres audio, playlists SQLite, site compagnon</td>
+<td>Bot Discord de musique — slash commands, Lavalink v4, 9 filtres audio, playlists SQLite persistées, site compagnon</td>
 <td><code>Discord.js v14</code> <code>Lavalink v4</code> <code>Node.js</code> <code>SQLite</code></td>
-<td align="center"><img src="https://img.shields.io/badge/actif-0a3d1f?style=flat-square&color=0a3d1f&labelColor=0a3d1f&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA4IDgiPjxjaXJjbGUgY3g9IjQiIGN5PSI0IiByPSI0IiBmaWxsPSIjNGFkZTgwIi8+PC9zdmc+&logoColor=4ade80"/></td>
+<td align="center"><img src="https://img.shields.io/badge/●_actif-0a3d1f?style=flat-square&labelColor=0a3d1f&color=0a3d1f"/></td>
 </tr>
-
 <tr>
 <td><strong>Portfolio</strong></td>
-<td>Site personnel — IntersectionObserver scroll reveals, mouse-tracking spotlight, count-up stats, scroll-stack project showcase</td>
+<td>Site personnel — scroll reveals, mouse-tracking spotlight, count-up stats, scroll-stack showcase, design system cohérent</td>
 <td><code>HTML</code> <code>CSS</code> <code>JS</code> <code>Nginx</code></td>
-<td align="center"><img src="https://img.shields.io/badge/actif-0a3d1f?style=flat-square&color=0a3d1f&labelColor=0a3d1f&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA4IDgiPjxjaXJjbGUgY3g9IjQiIGN5PSI0IiByPSI0IiBmaWxsPSIjNGFkZTgwIi8+PC9zdmc+&logoColor=4ade80"/></td>
+<td align="center"><img src="https://img.shields.io/badge/●_actif-0a3d1f?style=flat-square&labelColor=0a3d1f&color=0a3d1f"/></td>
 </tr>
-
 </tbody>
 </table>
 
@@ -93,34 +86,62 @@
 ## `~/architecture`
 
 ```
-                         ┌──────────────────────┐
-                         │     Cloudflare        │
-                         │  CDN · WAF · DNS      │
-                         └──────────┬────────────┘
-                                    │ HTTPS / :443
-                    ┌───────────────▼───────────────┐
-                    │        Nginx Reverse Proxy     │
-                    │   SSL · Cache · Rate Limiting  │
-                    └──┬─────┬─────┬─────┬─────┬───┘
-                       │     │     │     │     │
-             ┌─────────┘  ┌──┘  ┌──┘  ┌─┘  ┌──┘
-             │            │     │     │     │
-             ▼            ▼     ▼     ▼     ▼
-          [Flix]       [Drop] [Pulse][Gate][Ops]
-          Node.js      Node   Node   Node  Node
-          :xxxx        :xxxx  :xxxx  :xxxx :xxxx
-             │                              │
-             │                    ┌─────────┘
-             ▼                    ▼
-          [SQLite]            [PM2 Daemon]──[Cron runner]
-          per-service              │
-                              [Discord webhooks]
-
-  ┌─────────────────────────────────────────────────────┐
-  │  Infra : Raspberry Pi 5 (primary) + Debian 12 VPS   │
-  │  Process manager : PM2  ·  Reverse proxy : Nginx     │
-  │  Storage : SQLite per service  ·  Auth : JWT / bcrypt│
-  └─────────────────────────────────────────────────────┘
+                              INTERNET
+                                  │
+                    ┌─────────────▼─────────────┐
+                    │         CLOUDFLARE         │
+                    │  CDN · WAF · DNS · DDoS    │
+                    │  TLS 1.3 · Bot protection  │
+                    └─────────────┬─────────────┘
+                                  │
+╔═════════════════════════════════▼═════════════════════════════════╗
+║                                                                   ║
+║   ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░   ║
+║   ░░                    B L A C K   B O X                  ░░   ║
+║   ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░   ║
+║                                                                   ║
+║  ┌────────────────────────────────────────────────────────────┐  ║
+║  │              Nginx  —  reverse proxy layer                 │  ║
+║  │       SSL termination · rate limiting · static cache       │  ║
+║  └──┬──────┬──────┬──────┬──────┬──────┬──────┬─────┬───────┘  ║
+║     │      │      │      │      │      │      │     │           ║
+║     ▼      ▼      ▼      ▼      ▼      ▼      ▼     ▼           ║
+║  [Flix] [Drop] [Gate] [Pulse] [Ops] [Rythm]  ···   ···          ║
+║  Node   Node   Node   Node    Node   Node    bots  static       ║
+║     │      │      │      │      │      │                        ║
+║     └──────┴──────┴──────┴──────┴──────┘                        ║
+║                          │                                       ║
+║                   ┌──────▼───────┐   ┌──────────────┐           ║
+║                   │    SQLite    │   │  File storage │           ║
+║                   │  per-service │   │  (Drop/Flix)  │           ║
+║                   └─────────────┘   └──────────────┘           ║
+║                                                                   ║
+║  ┌─────────────────────────────────────────────────────────────┐ ║
+║  │                      compute mesh                           │ ║
+║  │                                                             │ ║
+║  │  ┌──────────────┐  ┌──────────────┐  ┌───────────────────┐ │ ║
+║  │  │    VPS × n   │  │    Dédié     │  │    RPi cluster    │ │ ║
+║  │  │   Debian 12  │  │  (home lab)  │  │                   │ │ ║
+║  │  │   cloud      │  │  bare metal  │  │  ┌───┐  ┌───┐     │ │ ║
+║  │  │   ×n nodes   │  │  24/7 uptime │  │  │Pi5│  │Pi │     │ │ ║
+║  │  └──────────────┘  └──────────────┘  │  └───┘  └───┘     │ │ ║
+║  │                                       │         ···        │ │ ║
+║  │                                       └────────────┬───────┘ │ ║
+║  └────────────────────────────────────────────────────┼─────────┘ ║
+║                                                       │           ║
+║                                          ┌────────────▼─────────┐ ║
+║                                          │      Arduino × n     │ ║
+║                                          │  GPIO · I²C · UART   │ ║
+║                                          │  sensors · actuators │ ║
+║                                          └─────────────────────┘ ║
+║                                                                   ║
+║  ┌─────────────────────────────────────────────────────────────┐ ║
+║  │  Discord layer                                              │ ║
+║  │  [music bot] ── [trading bot] ── [monitor] ── [webhooks]   │ ║
+║  │  Components V2 · slash commands · Canvas · SQLite           │ ║
+║  └─────────────────────────────────────────────────────────────┘ ║
+║                                                                   ║
+╚═══════════════════════════════════════════════════════════════════╝
 ```
 
 <br/>
@@ -137,35 +158,45 @@
 
 <br/>
 
-<table>
+<table width="100%">
 <tr>
-<td valign="top" width="33%">
+<td valign="top" width="25%">
 
 **Frontend**
 ```
-React 19 · Vite
-HTML / CSS / JS
-Recharts · Framer
+React 19 · Vite 5
+HTML · CSS · JS
+Recharts · Canvas
 ```
 
 </td>
-<td valign="top" width="33%">
+<td valign="top" width="25%">
 
 **Backend**
 ```
 Node.js ESM · Express
-better-sqlite3
-JWT · bcrypt · PM2
+better-sqlite3 · JWT
+bcrypt · node-cron
 ```
 
 </td>
-<td valign="top" width="33%">
+<td valign="top" width="25%">
 
 **Infra / Ops**
 ```
 Nginx · Cloudflare
-Docker · Raspberry Pi
-Discord.js v14
+PM2 · Docker
+Lavalink v4
+```
+
+</td>
+<td valign="top" width="25%">
+
+**Embedded**
+```
+Raspberry Pi OS
+Arduino · GPIO
+I²C · UART · USB
 ```
 
 </td>
@@ -180,8 +211,9 @@ Discord.js v14
 
 <div align="center">
 
-<img height="160" src="https://github-readme-stats.vercel.app/api?username=Velthorian&show_icons=true&theme=transparent&hide_border=true&title_color=4A7FBF&icon_color=4A7FBF&text_color=8b949e&bg_color=0d1117" />
-<img height="160" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Velthorian&layout=compact&theme=transparent&hide_border=true&title_color=4A7FBF&text_color=8b949e&bg_color=0d1117&langs_count=6" />
+<img height="155" src="https://github-readme-stats.vercel.app/api?username=Velthorian&show_icons=true&theme=transparent&hide_border=true&title_color=4A7FBF&icon_color=4A7FBF&text_color=6e8098&bg_color=0d1117&rank_icon=github&include_all_commits=true" />
+&nbsp;
+<img height="155" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Velthorian&layout=compact&theme=transparent&hide_border=true&title_color=4A7FBF&text_color=6e8098&bg_color=0d1117&langs_count=6&hide=html,css" />
 
 </div>
 
@@ -191,8 +223,8 @@ Discord.js v14
 
 <div align="center">
 
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=300&size=11&duration=4000&pause=2000&color=1a3a5c&center=true&vCenter=true&width=400&lines=self-hosted+%2F+self-maintained+%2F+self-sufficient" />
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=200&size=10&duration=5000&pause=3000&color=1d3a5c&center=true&vCenter=true&width=500&lines=//+everything+runs+somewhere+you+can't+see" />
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,40:0d1421,80:111827,100:0d1117&height=100&section=footer" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,35:0a0e1a,65:0d1421,100:0d1117&height=100&section=footer" width="100%"/>
 
 </div>
